@@ -1,8 +1,11 @@
 blank_issues_enabled: false
 contact_links:
   - name: 💬 General Discussion
-    url: https://github.com/yourorg/yourrepo/discussions
-    about: Ask questions and discuss ideas with the community
+    url: https://github.com/trungenglish/TronFit-web/discussions/categories/general
+    about: Discuss ideas with the community
+  - name: 🙏 Q&A
+    url: https://github.com/trungenglish/TronFit-web/discussions/categories/q-a
+    about: Ask questions
   - name: 🔒 Security Issue
     url: mailto:security@yourcompany.com
     about: Report security vulnerabilities privately
