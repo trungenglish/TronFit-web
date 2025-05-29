@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 General Discussion
+    url: https://github.com/yourorg/yourrepo/discussions
+    about: Ask questions and discuss ideas with the community
+  - name: 🔒 Security Issue
+    url: mailto:security@yourcompany.com
+    about: Report security vulnerabilities privately
+  - name: 📞 Support
+    url: https://support.yourcompany.com
+    about: Get help with using our product
