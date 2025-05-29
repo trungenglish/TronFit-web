@@ -71,24 +71,6 @@ body:
       required: true
 
   - type: dropdown
-    id: area
-    attributes:
-      label: Area
-      description: Which part of the system?
-      options:
-        - "🎨 Frontend"
-        - "⚙️ Backend"
-        - "🗄️ Database"
-        - "🚀 DevOps"
-        - "📱 Mobile"
-        - "🔗 API"
-        - "📝 Documentation"
-        - "🧪 Testing"
-      default: 0
-    validations:
-      required: true
-
-  - type: dropdown
     id: effort
     attributes:
       label: Estimated Effort
