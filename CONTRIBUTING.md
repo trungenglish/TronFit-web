@@ -64,6 +64,21 @@ All commits must follow the [Conventional Commit](https://www.conventionalcommit
 
 ---
 
+## 🔗 Linking commits to issues/tasks
+
+To associate your commit with an issue (e.g., #2), include the issue number at the end of the commit message, not at the beginning.
+
+✅ Valid examples:
+* `feat(auth): add google login functionality #2`
+* `fix(api): fix incorrect data response (closes #14)`
+* `docs: update README with new setup steps #3`
+
+❌ Invalid example (will fail commitlint rules):
+* #2 — docs: add CONTRIBUTING.md
+
+> ⚠️ Always put the issue number at the end and never use #2 - at the beginning of the commit message.
+---
+
 ## 3. Code Style & Testing
 
 * Follow the code style defined in `.eslintrc.*` or `.prettierrc.*` (if available).
