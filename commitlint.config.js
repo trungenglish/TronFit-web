@@ -17,7 +17,6 @@ module.exports = {
                 'test',     // Thêm hoặc sửa test case Ex: 'test: add auth tests' or 'test(auth): add auth tests #123'
                 'revert',   // Hoàn tác commit trước đó Ex: 'revert: revert auth feature #123' or 'revert(auth): revert auth feature #123'
                 'perf',     // Cải thiện hiệu năng Ex: 'perf: optimize auth performance' or 'perf(auth): optimize auth performance #123'
-                'vercel',   // Một loại custom, có thể dùng cho deploy hoặc config liên quan Vercel (ví dụ) Ex: 'vercel: deploy auth service' or 'vercel(auth): deploy auth service #123'
             ],
         ],
         'type-empty': [2, 'never'],
