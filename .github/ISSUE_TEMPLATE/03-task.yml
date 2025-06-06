@@ -20,13 +20,20 @@ body:
       label: Task Type
       description: What kind of task is this?
       options:
+        - "🎨 UI/UX - Create components, layouts, styling"
+        - "🔌 Integration - API integration, third-party services"
+        - "🐛 Fix - Non-critical bug fixes and improvements"
+        - "📱 Responsive - Mobile/tablet optimization"
         - "🔧 Maintenance - Code cleanup, refactoring"
-        - "📚 Documentation - Update docs, README"
-        - "🔒 Security - Security improvements"
         - "⚡ Performance - Optimization work"
         - "🧪 Testing - Add/improve tests"
-        - "🏗️ Infrastructure - DevOps, CI/CD"
+        - "📚 Documentation - Update docs, README"
         - "📦 Dependencies - Update libraries"
+        - "🔒 Security - Security improvements" 
+        - "🏗️ Infrastructure - DevOps, CI/CD"
+        - "♿ Accessibility - A11y improvements"
+        - "🌐 Localization - i18n, language support"
+        - "📊 Analytics - Tracking, monitoring setup"
       default: 0
     validations:
       required: true
