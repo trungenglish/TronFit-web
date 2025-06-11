@@ -1,1 +1,48 @@
 @import "tailwindcss";
+
+* {
+    border-color: rgb(63 63 70);
+  }
+  body {
+    background-color: rgb(9 9 11);
+    color: rgb(244 244 245);
+    transition: all 0.3s ease;
+  }
+
+@keyframes shimmer {
+    0% {
+      box-shadow: 0 0 0 0 #ffffff11, 0 0 8px 0 #16d9e6aa;
+    }
+    60% {
+      box-shadow: 0 0 24px 4px #16d9e699, 0 0 12px 2px #fd337377;
+    }
+    100% {
+      box-shadow: 0 0 0 0 #ffffff11, 0 0 8px 0 #16d9e6aa;
+    }
+  }
+  .animate-shimmer {
+    animation: shimmer 2.7s cubic-bezier(.43,.48,.54,.92) infinite;
+  }
+  
+  .drop-shadow-glow {
+    filter: drop-shadow(0 0 14px #16d9e6cc);
+  }
+  
+  /* Custom Scrollbar */
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: rgba(63, 63, 70, 0.3);
+    border-radius: 2px;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #00f5ff, #8b5cf6);
+    border-radius: 2px;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #00ffff, #a855f7);
+  }
