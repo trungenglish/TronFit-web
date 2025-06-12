@@ -1,4 +1,5 @@
 import GymFeatureCard from "@/features/home/components/GymFeatureCard";
+import WorkoutCalendar from "@/features/home/components/WorkoutCalendar";
 
 export default function Home() {
     const FEATURES = [
@@ -156,7 +157,7 @@ export default function Home() {
               {/* Right Column - Professional Workout Calendar */}
               <div className="flex justify-center lg:justify-end">
                 <div className="relative">
-                  {/* <WorkoutCalendar /> */}
+                  <WorkoutCalendar />
                   
                   {/* Enhanced Floating Elements */}
                   <div className="absolute -top-6 -right-6 w-24 h-24 bg-gradient-to-br from-cyan-500/20 to-transparent rounded-full blur-xl animate-bounce" style={{animationDuration: '3s'}} />
