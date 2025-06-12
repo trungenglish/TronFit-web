@@ -6,7 +6,7 @@ import Link from "next/link";
 import { usePathname } from 'next/navigation';
 
 export default function Header() {
-    const [currentLang, setCurrentLang] = useState('vi');
+    const [currentLang, setCurrentLang] = useState<string>('vi');
     const pathname = usePathname();
 
     const navItems = [
